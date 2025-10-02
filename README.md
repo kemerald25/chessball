@@ -86,3 +86,11 @@ contracts/
 - **Smart Contracts**: Solidity, Hardhat
 - **Automation**: Gelato Web3 Functions
 - **Testing**: Mocha, Chai, Hardhat testing framework
+
+
+
+everything is working perfectly but the app is using demo and mock data i need you to create complete backend utilizing supabase that handles all the game and task and fore each level there should be good amount of task and all just go throiugh the project and understand it and for auth it is already set up to connect wallet but the connect button in navbar still shows connect wallet even after connected and also the users should be able to set their nicjkname from the dashboard just make everything fully functional and lastly the ai guardian page doesnt have the navigation like oither pages i don't know why also fix that
+
+const COINBASE_PAYMASTER_RPC_URL = "https://api.developer.coinbase.com/rpc/v1/base-sepolia/KiHWxKEG8TxntMt0pd9prqKwXidd2OjC";
+const FLASHBLOCKS_RPC_URL = "https://base-sepolia.g.alchemy.com/v2/wOfztwyjs9yCVkn-o9877DpNDo85pmoo";
+const RELAYER_PRIVATE_KEY = "0x5152049a71c35e5d800c66269ed17759307d020fbf2fb69317d9202481d77a6e";
