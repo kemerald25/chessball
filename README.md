@@ -86,3 +86,4 @@ contracts/
 - **Smart Contracts**: Solidity, Hardhat
 - **Automation**: Gelato Web3 Functions
 - **Testing**: Mocha, Chai, Hardhat testing framework
+bf4227ba5e04c8c2a1c8be09d53232caed908783200f882133776aeaab6edbfc

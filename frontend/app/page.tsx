@@ -483,8 +483,14 @@ export default function App() {
         </div>
       </div>
 
-      {/* How to Play link */}
-      <div className="w-full max-w-md flex justify-end mb-3">
+      {/* Connect Zealy */}
+      <div className="w-full max-w-md flex justify-between items-center mb-3">
+        <button
+          onClick={() => openUrl(`${window.location.origin}/connect-zealy`)}
+          className="flex items-center gap-1 text-sm text-gray-300 hover:text-white underline transition-colors"
+        >
+          Connect Zealy
+        </button>
         <button
           onClick={() => openUrl(`${window.location.origin}/rules-of-game`)}
           className="flex items-center gap-1 text-sm text-gray-300 hover:text-white underline transition-colors"
