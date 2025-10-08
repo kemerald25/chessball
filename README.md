@@ -86,3 +86,12 @@ contracts/
 - **Smart Contracts**: Solidity, Hardhat
 - **Automation**: Gelato Web3 Functions
 - **Testing**: Mocha, Chai, Hardhat testing framework
+
+
+pool = new Pool({
+      host: process.env.DB_HOST || 'aws-1-us-east-2.pooler.supabase.com',
+      port: parseInt(process.env.DB_PORT || '5432'),
+      database: process.env.DB_NAME || 'postgress',
+      user: process.env.DB_USER || 'postgres.fbczuemyuopzctgztsxc',
+      password: process.env.DB_PASSWORD || 'VEEk49hPMyDfUBLs',
+    });
